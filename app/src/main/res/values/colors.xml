@@ -2,5 +2,4 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="change_colour">#FF5C33</color>
 </resources>

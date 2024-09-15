@@ -10,7 +10,6 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -27,9 +26,5 @@ public class MainActivity extends AppCompatActivity {
     public void onBtnChangeTextClick(View view) {
         TextView tvChangeText = (TextView)findViewById(R.id.tvChangeText);
         tvChangeText.setText("Hellooooooooo");
-    }
-    public void onBtnChangeTextChangeColour(View view) {
-        TextView tvChangeText = findViewById(R.id.tvChangeText);
-        tvChangeText.setTextColor(getResources().getColor(R.color.change_colour, null));
     }
 }
